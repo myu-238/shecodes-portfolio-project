@@ -95,11 +95,11 @@ p {
 
 .profile-pic {
     max-width: 100%;
-    height: auto;
-    display: flex;
+    height: 560px;
+    border-radius: 12px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 985px) {
     h1 {
         font-size: 60px;
         line-height: 1.4;
@@ -109,8 +109,18 @@ p {
         font-size: 37px;
     }
 
+    .about-section {
+        text-align: center;
+        padding: 0;
+    }
+
     .project-description {
         padding: 0;
         text-align: center;
+    }
+
+    .profile-pic {
+        max-width: 60%;
+        height: auto;
     }
 }
