@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Marisa Yu is a front-end developer based in Canada. You can contact her on github, on facebook or on instagram."
+        />
         <title>SheCodes Portfolio Project - Contact Page - Marisa Yu</title>
 
         <link
@@ -31,6 +35,26 @@
         ></script>
     </head>
     <body>
+        <div class="container">
+            <nav class="d-flex justify-content-between">
+                <a href="/index.html">
+                    <img
+                        src="images/logo.png"
+                        class="logo d-none d-md-block"
+                        alt="logo" />
+                    <img
+                        src="images/logo-small.jpg"
+                        class="logo d-block d-md-none"
+                        alt="smaller logo"
+                /></a>
+
+                <ul>
+                    <li><a href="/"> Home</a></li>
+                    <li ><a href="/about.html"> About</a></li>
+                    <li><a href="/work.html"> Work</a></li>
+                    <li class="active"><a href="/contact.html"> Contact</a></li>
+                </ul>
+            </nav>
         <div class="content-container container">
             <div class="content">
                 <h1 class="mb-5">Let's get in touch!</h1>
@@ -55,6 +79,47 @@
                     >
                 </p>
             </div>
+        </div>
+        <div>
+            <footer>
+                <div
+                    class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+                >
+                    <div>
+                        <h4>Work Inquiries</h4>
+                        <p class="text-muted">Let's work together!</p>
+                    </div>
+                    <div>
+                        <a href="/contact.html" class="btn btn-branding mt-3"
+                            >Contact me</a
+                        >
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mb-5">
+                    <a href="mailto:marisa.yu@hotmail.com" class="email-link"
+                        >marisa.yu@hotmail.com</a
+                    >
+                </div>
+                <div class="social-links d-flex justify-content-center mb-5">
+                    <a href="https://github.com/myu-238" target="_blank"
+                        ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a href="https://instagram.com/marisaaaaa-y" target="_blank"
+                        ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                    <a href="https://facebook.com/marisa" target="_blank"
+                        ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                </div>
+                <p class="text-center">
+                    ✌ This project was coded by Marisa Yu, and it is
+                    <a
+                        href="https://github.com/myu-238/shecodes-portfolio-project"
+                        target="_blank"
+                        >open-sourced</a
+                    >
+                </p>
+            </footer>
         </div>
     </body>
 </html>
